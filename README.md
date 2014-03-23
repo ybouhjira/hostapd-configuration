@@ -1,10 +1,11 @@
-# Connect to wifi and sharing the internet access on the same device 
+# Connecting to WIFI and sharing on the same NIC
 
 This script uses **wpa_supplicant** to connect to a WPA2 wifi, and shares it on 
 the same NIC using **hostapd**.
 
 ## How to use
 
+```
    # Install 
    ./install.sh
    
@@ -16,3 +17,4 @@ the same NIC using **hostapd**.
 
    # Stop when finished
    ./stop
+```
