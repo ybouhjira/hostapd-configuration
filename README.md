@@ -6,15 +6,15 @@ the same NIC using **hostapd**.
 ## How to use
 
 ```
-   # Install 
-   ./install.sh
-   
-   # Connect to the AP
-   ./connect.sh wpa_supplicant.sh
+# Install 
+./install.sh
 
-   # Start hostapd to share the internet access
-   ./start
+# Connect to the AP
+./connect.sh wpa_supplicant.sh
 
-   # Stop when finished
-   ./stop
+# Start hostapd to share the internet access
+./start
+
+# Stop when finished
+./stop
 ```
