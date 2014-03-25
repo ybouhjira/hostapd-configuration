@@ -19,7 +19,7 @@ sudo service dnsmasq restart
 sudo sysctl net.ipv4.ip_forward=1
 
 # Enable NAT
-sudo iptables -t nat -A POSTROUTING -o ap0 -j MASQUERADE
+sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 
 # Run access point daemon
 sudo hostapd /etc/hostapd.conf
