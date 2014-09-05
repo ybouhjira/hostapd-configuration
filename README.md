@@ -10,11 +10,11 @@ the same NIC using **hostapd**.
 ./install.sh
 
 # Connect to the AP
-./connect.sh wpa_supplicant.sh
+./connect.sh wpa_supplicant.conf
 
 # Start hostapd to share the internet access
-./start
+./start.sh
 
 # Stop when finished
-./stop
+./stop.sh
 ```
